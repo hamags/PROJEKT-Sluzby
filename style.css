@@ -152,14 +152,19 @@ div{
     .button1, .button2 {height: 40px;}
 
 
-    .centered-kontejner {
+    
+
+    .centered-kontejner1, .centered-kontejner2 {
         display: flex;
         justify-content: center; /* Vodorovné vycentrování */
         align-items: center;}
+        
+
 
     .icon-kontejner{ 
         display: inline-block;
         margin-top: 40px;
+        
         }
 
     .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
@@ -211,10 +216,10 @@ div{
 
 
 
-        .box1 {display: flex;}
+        .box1 {display: flex; margin-top: 80px;}
         .box1-text, .centered-kontejner1{flex: 0 0 50%;}
-        .centered-kontejner1 {order: -1; display: flex; margin-right: 60px; margin-left: 0; padding-left: 0; flex-direction: row;}
-        .box1-text {display: flex; flex-direction: column;  margin: 0;}
+        .centered-kontejner1 {order: -1; display: flex; flex-basis: 550px; justify-content: right; flex-grow: 1; margin-right: 60px; margin-left: 0; padding-left: 0;}
+        .box1-text {display: flex; flex-direction: column; flex-basis: 430px; flex-grow: 1; margin: 0;}
         p{text-align: left; margin-left: 0;}
         h2{text-align: left; margin-left: 0;}
         
@@ -241,13 +246,11 @@ div{
 
     }
 
-        .box2{display: flex;}
+        .box2{display: flex; margin-top: 80px;}
         .box2-text, .centered-kontejner2{flex: 0 0 50%;}
-        .centered-kontejner2 {display: flex; margin-right: 0; padding-right: 0;}
-        .box2-text {display: flex; flex-direction: column;  margin: 0; margin-right: 60px;}
+        .centered-kontejner2 {display: flex; flex-basis: 550px; justify-content: left; flex-grow: 1; margin-right: 0; padding-right: 0;}
+        .box2-text {display: flex; flex-direction: column; flex-basis: 430px; flex-grow: 1; margin: 0; margin-right: 60px;}
         p{text-align: left; margin-right: 0;}
         h2{text-align: left; margin-right: 0;}
-
-
 
 }
