@@ -206,7 +206,9 @@ div{
 
     @media screen and (min-width: 1100px){
 
-        body{margin-left: 80px; margin-right: 80px;}
+        body{margin-left: 80px; margin-right: 80px;
+            max-width: 1040px; /* Nastaví maximální šířku body na 1040px */
+            margin: 0 auto; /* Auto vycentrování na stránce */}
         
         .happy-traveler-box{display: flex;justify-content: space-between;}
         .happy-traveler, .happy-traveler-kontejner {flex-basis: 50%; flex-grow: 1;}
@@ -225,11 +227,14 @@ div{
         
         .icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
             height: 190px;
-            width: 170px;
+            width:154px;
+            flex: 0 1 calc(100% / 3);
            }
 
         .obr1, .obr2, .obr3, .obr4, .obr5, .obr6 {
-            padding: 40px 65px 20px 65px;
+            text-align: center;
+            padding: 40px 54px 20px 54px;
+            margin: 0;
             }
         
         .icon-text {
@@ -241,8 +246,8 @@ div{
             }
 
         .icon2, .icon5 {
-            margin-left: 20px;
-            margin-right: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
 
     }
 
