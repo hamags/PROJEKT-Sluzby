@@ -208,7 +208,9 @@ div{
 
         body{margin-left: 80px; margin-right: 80px;
             max-width: 1040px; /* Nastaví maximální šířku body na 1040px */
-            margin: 0 auto; /* Auto vycentrování na stránce */}
+            margin: 0 auto; /* Auto vycentrování na stránce */
+            margin-top: 60px;
+            margin-bottom: 60px;}
         
         .happy-traveler-box{display: flex;justify-content: space-between;}
         .happy-traveler, .happy-traveler-kontejner {flex-basis: 50%; flex-grow: 1;}
